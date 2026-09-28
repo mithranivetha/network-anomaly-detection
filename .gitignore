@@ -1,2 +1,16 @@
 data/*.csv
 data/*.pcap
+
+# Data folder: ignore everything except the placeholder
+data/*
+!data/.gitkeep
+
+# Mac junk
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
